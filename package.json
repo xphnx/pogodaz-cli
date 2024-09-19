@@ -1,0 +1,28 @@
+{
+  "name": "pogodaz-cli",
+  "version": "1.0.0",
+  "description": "cli for getting weather",
+  "main": "pogodaz.js",
+  "bin": {
+    "pogodaz": "pogodaz.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "xphnx",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "axios": "~1.7.7",
+    "chalk": "^5.3.0",
+    "dedent": "^1.5.3"
+  }
+}
